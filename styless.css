@@ -1,0 +1,111 @@
+.message {
+    background-color: white;
+    border: 2px solid black;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+.dark-theme .message {
+    background-color: rgb(50, 50, 50);
+    border-color: white;
+    color: white;
+}
+
+.theme-button {
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+}
+
+.message.orange-box {
+    background-color: rgb(233, 175, 50);
+}
+
+.message.green-box {
+    background-color: rgb(87, 240, 73);
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.scroll-info {
+    background-color: rgb(233, 175, 50);
+    border: 2px solid black;
+    padding: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.top-header {
+    background-color: rgb(233, 175, 50);
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    transition: top 0.3s ease-out;
+}
+
+.top-header.hide {
+    top: -61px;
+}
+
+.content {
+    padding-top: 80px;
+    padding: 20px;
+}
+
+.image {
+    width: 50%;
+}
+
+.pets {
+    width: 20%;
+}
+
+.js-link {
+
+    padding-left: 10px;
+    padding-top: 80px;
+    padding: 20px;
+
+}
+
+.text-input {
+    /* background-color: rgb(233, 175, 50); */
+    border: 2px solid black;
+    /* padding-left: 10px;
+    padding-top: 80px; */
+    /* padding: 20px; */
+    /* padding-top: 10px; */
+
+}
+
+.register-button {
+    /* background-color: rgb(233, 175, 50); */
+    border: 2px solid black;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
